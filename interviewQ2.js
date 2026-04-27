@@ -1,8 +1,8 @@
 // //Write a function that resturns the reverse of a string
 
-// // function reverseString(str) {
-// //   return str.split('').reverse().join('');
-// // }
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
 
 // //OR
 // function reverseString(str) {
@@ -13,7 +13,7 @@
 //   return reversed;
 // }
 
-//console.log(reverseString('Hello world'));
+console.log(reverseString('Hello world'));
 
 // //-------------------------------------------------------------------------------------
 
